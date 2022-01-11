@@ -1,0 +1,76 @@
+
+@font-face{
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf)
+}
+body{
+    font-family: OpenSans;
+}
+h1, main, footer {
+    text-align: center;
+    color: #003366;
+}
+img {
+    size: 50%;
+    margin: 2% 2% 0% 2%;
+}
+.mainbutton{
+    padding:10px;
+    border-radius: 5px;
+    background: #003366;
+}
+a{
+    text-decoration: none;
+    color: #ff9999;
+}
+nav > a:hover{
+    color: #ff6666;
+    font-size: 120%;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ff9966;
+}
+.subtlehref{
+    text-decoration: none;
+    color: 	#696969; 
+}
+#obvhref {
+    color: #FF0000;
+    text-decoration: underline;
+}
+aside:hover{
+    text-decoration-color: #003366;
+/*social media css */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+/* grid system*/
+.cotainer{
+    width: 100%;
+}
+.articlediv{
+    width: auto;
+}
